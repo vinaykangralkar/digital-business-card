@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
 * {
   background-color: #1c1c1c;
+  font-family: "Inter";
 }
 
 .app {
@@ -31,14 +34,124 @@
 }
 
 .info {
-  background-color: aqua;
+  background-color: #1a1b21;
   width: 317px;
   min-height: 399px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  width: 250px;
+  height: 30px;
+  top: 10px;
+  color: #ffffff;
+  margin: 0;
+
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.job {
+  width: 178.06px;
+  height: 14.19px;
+  color: #f3bf99;
+  margin-bottom: 0;
+
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.email {
+  width: 228px;
+  height: 16px;
+  color: #f5f5f5;
+
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.buttons {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.email-button,
+.linkedin-button {
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: none;
+  width: 115px;
+  height: 34px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-icon {
+  background-color: inherit;
+  margin-right: 7px;
+  height: 16px;
+}
+
+.linkedin-button {
+  background-color: #5093e2;
+  color: #ffffff;
+}
+
+.linkedin-icon {
+  background-color: #5093e2;
+  margin-right: 7px;
+  height: 16px;
+}
+
+.about,
+.para {
+  color: #f5f5f5;
+  text-align: start;
+  width: 243px;
+  margin-bottom: 0;
+}
+
+.about {
+  height: 21px;
+}
+
+.para {
+  font-size: 10px;
 }
 
 .socials {
-  background-color: beige;
+  background-color: #161619;
   width: 317px;
   height: 64px;
   border-radius: 0px 0px 10px 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials-icon {
+  color: #918e9b;
+  height: 25px;
+  width: 25px;
+  padding: 5px;
 }
