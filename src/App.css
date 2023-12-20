@@ -13,12 +13,21 @@
   align-items: center;
 }
 
-.dipslay-picture {
-  background-color: aliceblue;
+.image-container {
   height: 317px;
   width: 317px;
   margin-top: 44px;
   border-radius: 10px 10px 0px 0px;
+
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.dipslay-picture {
+  width: 100%;
+  object-fit: cover;
+  transform: scale(2.5) translateY(-20px);
 }
 
 .info {
